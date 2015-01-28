@@ -14,7 +14,7 @@ module Ember
 
 
       def create_template_files
-        file_path = File.join(ember_path, 'templates', class_path, "#{file_name}.handlebars")
+        file_path = File.join(ember_path, 'templates', class_path, "#{file_name.dasherize}.handlebars")
         template 'template.handlebars', file_path
       end
 
