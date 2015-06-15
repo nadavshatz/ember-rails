@@ -1,4 +1,4 @@
-# ember-rails  [![Build Status](https://secure.travis-ci.org/emberjs/ember-rails.svg?branch=master)](http://travis-ci.org/emberjs/ember-rails) [![Dependency Status](https://gemnasium.com/emberjs/ember-rails.png)](https://gemnasium.com/emberjs/ember-rails)
+# ember-rails  [![Build Status](https://secure.travis-ci.org/emberjs/ember-rails.svg?branch=master)](http://travis-ci.org/emberjs/ember-rails) [![Dependency Status](https://gemnasium.com/emberjs/ember-rails.png)](https://gemnasium.com/emberjs/ember-rails) [![Code Climate](https://codeclimate.com/github/emberjs/ember-rails/badges/gpa.svg)](https://codeclimate.com/github/emberjs/ember-rails)
 
 ember-rails makes developing an [Ember.JS](http://emberjs.com/) application much easier in Rails 3.1+.
 
@@ -94,16 +94,6 @@ You can now use the flag `--javascript-engine=em` to specify EmberScript
 assets in your generators, but all of the generators will default to
 using an EmberScript variant first.
 
-Note:
-
-Ember-rails include some flags options for bootstrap generator:
-
-```
---ember-path or -d # custom ember path
---skip-git or -g # skip git keeps
---javascript-engine  # engine for javascript (js, coffee or em)
---app-name or -n # custom ember app name
-```
 
 ## Configuration Options
 
